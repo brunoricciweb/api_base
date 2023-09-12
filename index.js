@@ -3,7 +3,8 @@ const app = express()
 const path = require('path')
 const port = 3000
 app.use(express.json());
-//var cookieParser = require('cookie-parser')
+var cookieParser = require('cookie-parser')
+app.use(cookieParser());
 /////////////////////////////////////////////
 
 
